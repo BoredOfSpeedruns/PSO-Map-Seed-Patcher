@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PSO Map Seed Patcher", "PSO Map Seed Patcher.csproj", "{91B73898-9EE8-4B47-91CD-76FE37B387AD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{91B73898-9EE8-4B47-91CD-76FE37B387AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91B73898-9EE8-4B47-91CD-76FE37B387AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91B73898-9EE8-4B47-91CD-76FE37B387AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91B73898-9EE8-4B47-91CD-76FE37B387AD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B94C76AC-E380-498F-A335-9B08D143F044}
+	EndGlobalSection
+EndGlobal

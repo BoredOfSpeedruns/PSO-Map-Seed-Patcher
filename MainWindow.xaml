@@ -1,0 +1,122 @@
+﻿<Window x:Class="PSO_Patcher.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PSO_Patcher"
+        mc:Ignorable="d"
+        Title="PSO Map Seed Patcher" 
+        Height="512" 
+        Width="244"
+        ResizeMode="NoResize"
+        >
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="91*"/>
+            <ColumnDefinition Width="0*"/>
+            <ColumnDefinition Width="28*"/>
+            <ColumnDefinition Width="15*"/>
+            <ColumnDefinition Width="110*"/>
+        </Grid.ColumnDefinitions>
+        <TabControl Grid.ColumnSpan="5">
+            <TabItem Header="Patcher">
+                <Grid Background="#FFE5E5E5" Margin="0,0,-2,0" Height="480">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="163*"/>
+                        <ColumnDefinition Width="77*"/>
+                    </Grid.ColumnDefinitions>
+                    <ComboBox x:Name="Forest_1_dd" HorizontalAlignment="Left" Margin="96,18,0,0" VerticalAlignment="Top" Width="120" SelectionChanged="Forest_1_dd_SelectionChanged" Grid.ColumnSpan="2" >
+                        <ComboBoxItem>Variation A</ComboBoxItem>
+                        <ComboBoxItem>Variation B</ComboBoxItem>
+                        <ComboBoxItem>Variation C</ComboBoxItem>
+                    </ComboBox>
+                    <ComboBox x:Name="Forest_2_dd" HorizontalAlignment="Left" Margin="96,58,0,0" VerticalAlignment="Top" Width="120" SelectionChanged="Forest_2_dd_SelectionChanged" Grid.ColumnSpan="2" >
+                        <ComboBoxItem>Variation A</ComboBoxItem>
+                        <ComboBoxItem>Variation B</ComboBoxItem>
+                        <ComboBoxItem>Variation C</ComboBoxItem>
+                    </ComboBox>
+                    <ComboBox x:Name="Caves_1_dd" HorizontalAlignment="Left" Margin="96,98,0,0" VerticalAlignment="Top" Width="120" SelectionChanged="Caves_1_dd_SelectionChanged" Grid.ColumnSpan="2">
+                        <ComboBoxItem>Variation A</ComboBoxItem>
+                        <ComboBoxItem>Variation B</ComboBoxItem>
+                        <ComboBoxItem>Variation C</ComboBoxItem>
+                    </ComboBox>
+                    <ComboBox x:Name="Caves_2_dd" HorizontalAlignment="Left" Margin="96,138,0,0" VerticalAlignment="Top" Width="120" SelectionChanged="Caves_2_dd_SelectionChanged" Grid.ColumnSpan="2">
+                        <ComboBoxItem>Variation A</ComboBoxItem>
+                        <ComboBoxItem>Variation B</ComboBoxItem>
+                        <ComboBoxItem>Variation C</ComboBoxItem>
+                    </ComboBox>
+                    <ComboBox x:Name="Caves_3_dd" HorizontalAlignment="Left" Margin="96,178,0,0" VerticalAlignment="Top" Width="120" SelectionChanged="Caves_3_dd_SelectionChanged" Grid.ColumnSpan="2">
+                        <ComboBoxItem>Variation A</ComboBoxItem>
+                        <ComboBoxItem>Variation B</ComboBoxItem>
+                        <ComboBoxItem>Variation C</ComboBoxItem>
+                    </ComboBox>
+                    <ComboBox x:Name="Mines_1_dd" HorizontalAlignment="Left" Margin="96,218,0,0" VerticalAlignment="Top" Width="120" SelectionChanged="Mines_1_dd_SelectionChanged" Grid.ColumnSpan="2">
+                        <ComboBoxItem>Variation 1A</ComboBoxItem>
+                        <ComboBoxItem>Variation 1B</ComboBoxItem>
+                        <ComboBoxItem>Variation 2A</ComboBoxItem>
+                        <ComboBoxItem>Variation 2B</ComboBoxItem>
+                        <ComboBoxItem>Variation 3A</ComboBoxItem>
+                        <ComboBoxItem>Variation 3B</ComboBoxItem>
+                    </ComboBox>
+                    <ComboBox x:Name="Mines_2_dd" HorizontalAlignment="Left" Margin="96,258,0,0" VerticalAlignment="Top" Width="120" SelectionChanged="Mines_2_dd_SelectionChanged" Grid.ColumnSpan="2">
+                        <ComboBoxItem>Variation 1A</ComboBoxItem>
+                        <ComboBoxItem>Variation 1B</ComboBoxItem>
+                        <ComboBoxItem>Variation 2A</ComboBoxItem>
+                        <ComboBoxItem>Variation 2B</ComboBoxItem>
+                        <ComboBoxItem>Variation 3A</ComboBoxItem>
+                        <ComboBoxItem>Variation 3B</ComboBoxItem>
+                    </ComboBox>
+                    <ComboBox x:Name="Ruins_1_dd" HorizontalAlignment="Left" Margin="96,298,0,0" VerticalAlignment="Top" Width="120" SelectionChanged="Ruins_1_dd_SelectionChanged" Grid.ColumnSpan="2">
+                        <ComboBoxItem>Variation 1A</ComboBoxItem>
+                        <ComboBoxItem>Variation 1B</ComboBoxItem>
+                        <ComboBoxItem>Variation 2A</ComboBoxItem>
+                        <ComboBoxItem>Variation 2B</ComboBoxItem>
+                        <ComboBoxItem>Variation 3A</ComboBoxItem>
+                        <ComboBoxItem>Variation 3B</ComboBoxItem>
+                    </ComboBox>
+                    <ComboBox x:Name="Ruins_2_dd" HorizontalAlignment="Left" Margin="96,338,0,0" VerticalAlignment="Top" Width="120" SelectionChanged="Ruins_2_dd_SelectionChanged" Grid.ColumnSpan="2">
+                        <ComboBoxItem>Variation 1A</ComboBoxItem>
+                        <ComboBoxItem>Variation 1B</ComboBoxItem>
+                        <ComboBoxItem>Variation 2A</ComboBoxItem>
+                        <ComboBoxItem>Variation 2B</ComboBoxItem>
+                        <ComboBoxItem>Variation 3A</ComboBoxItem>
+                        <ComboBoxItem>Variation 3B</ComboBoxItem>
+                    </ComboBox>
+                    <ComboBox x:Name="Ruins_3_dd" HorizontalAlignment="Left" Margin="96,378,0,0" VerticalAlignment="Top" Width="120" SelectionChanged="Ruins_3_dd_SelectionChanged" Grid.ColumnSpan="2">
+                        <ComboBoxItem>Variation 1A</ComboBoxItem>
+                        <ComboBoxItem>Variation 1B</ComboBoxItem>
+                        <ComboBoxItem>Variation 2A</ComboBoxItem>
+                        <ComboBoxItem>Variation 2B</ComboBoxItem>
+                        <ComboBoxItem>Variation 3A</ComboBoxItem>
+                        <ComboBoxItem>Variation 3B</ComboBoxItem>
+                    </ComboBox>
+                    <Label Content="Forest 1" HorizontalAlignment="Left" Margin="10,14,0,0" VerticalAlignment="Top"/>
+                    <Label Content="Forest 2" HorizontalAlignment="Left" Margin="10,54,0,0" VerticalAlignment="Top"/>
+                    <Label Content="Caves 1" HorizontalAlignment="Left" Margin="10,94,0,0" VerticalAlignment="Top"/>
+                    <Label Content="Caves 2" HorizontalAlignment="Left" Margin="10,134,0,0" VerticalAlignment="Top"/>
+                    <Label Content="Caves 3" HorizontalAlignment="Left" Margin="10,174,0,0" VerticalAlignment="Top"/>
+                    <Label Content="Mines 1" HorizontalAlignment="Left" Margin="10,214,0,0" VerticalAlignment="Top"/>
+                    <Label Content="Mines 2" HorizontalAlignment="Left" Margin="10,254,0,0" VerticalAlignment="Top"/>
+                    <Label Content="Ruins 1" HorizontalAlignment="Left" Margin="10,294,0,0" VerticalAlignment="Top"/>
+                    <Label Content="Ruins 2" HorizontalAlignment="Left" Margin="10,334,0,0" VerticalAlignment="Top"/>
+                    <Label Content="Ruins 3" HorizontalAlignment="Left" Margin="10,374,0,0" VerticalAlignment="Top"/>
+                    <Button x:Name="Patch_Btn" Content="Patch" HorizontalAlignment="Left" Margin="96,420,0,0" VerticalAlignment="Top" Click="Patch_Btn_Click"/>
+                </Grid>
+            </TabItem>
+            <TabItem Header="Map Reader">
+                <Grid Background="#FFE5E5E5">
+                    <Label x:Name="Forest_1" Content="Forest 1" HorizontalAlignment="Left" Margin="10,43,0,0" VerticalAlignment="Top"/>
+                    <Label x:Name="Forest_2" Content="Forest 2" HorizontalAlignment="Left" Margin="10,73,0,0" VerticalAlignment="Top"/>
+                    <Label x:Name="Caves_1" Content="Caves 1" HorizontalAlignment="Left" Margin="10,103,0,0" VerticalAlignment="Top"/>
+                    <Label x:Name="Caves_2" Content="Caves 2" HorizontalAlignment="Left" Margin="10,133,0,0" VerticalAlignment="Top"/>
+                    <Label x:Name="Caves_3" Content="Caves 3" HorizontalAlignment="Left" Margin="10,163,0,0" VerticalAlignment="Top"/>
+                    <Label x:Name="Mines_1" Content="Mines 1" HorizontalAlignment="Left" Margin="10,193,0,0" VerticalAlignment="Top"/>
+                    <Label x:Name="Mines_2" Content="Mines 2" HorizontalAlignment="Left" Margin="10,223,0,0" VerticalAlignment="Top"/>
+                    <Label x:Name="Ruins_1" Content="Ruins 1" HorizontalAlignment="Left" Margin="10,253,0,0" VerticalAlignment="Top"/>
+                    <Label x:Name="Ruins_2" Content="Ruins 2" HorizontalAlignment="Left" Margin="10,283,0,0" VerticalAlignment="Top"/>
+                    <Label x:Name="Ruins_3" Content="Ruins 3" HorizontalAlignment="Left" Margin="10,313,0,0" VerticalAlignment="Top"/>
+                </Grid>
+            </TabItem>
+        </TabControl>
+    </Grid>
+</Window>
